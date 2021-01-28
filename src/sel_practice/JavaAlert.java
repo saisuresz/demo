@@ -31,4 +31,8 @@ public class JavaAlert {
 	public void newtest2() {
 		System.out.println("new test 2");
 	}
+	@Test
+	public void newtest3() {
+		System.out.println("new test 2");
+	}
 }
