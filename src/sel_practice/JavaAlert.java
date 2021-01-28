@@ -18,7 +18,8 @@ public class JavaAlert {
 		driver.findElement(By.id("alertbtn")).click();
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
-		
+		driver.close();
+		driver.quit();
 
 	}
 }
