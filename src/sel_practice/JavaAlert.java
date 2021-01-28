@@ -22,4 +22,13 @@ public class JavaAlert {
 		System.out.println("step by local machine");
 		System.out.println("done by sai hp");
 	}
+	
+	@Test
+	public void newtest() {
+		System.out.println("new test 1");
+	}
+	@Test
+	public void newtest2() {
+		System.out.println("new test 2");
+	}
 }
